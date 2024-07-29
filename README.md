@@ -52,7 +52,7 @@ python timesheet.py
 ```
 
 ## Sample Prompts:
-```bash
+```
 Do you want to perform bulk processing? (yes/no) [no]:
 Enter the year [2024]:
 Enter the month (1-12) [7]:
@@ -70,7 +70,7 @@ Enter the number of the image to use for the signature (1-2), or press Enter to 
 ```
 
 ## Output
-The generated timesheets will be saved in a directory named Stundenzettel {year}, with files in CSV, Excel, and PDF formats.
+The generated timesheets will be saved in a directory named `Stundenzettel {year}`, with files in CSV, Excel, and PDF formats.
 
 ## File Structure
 - **CSV File**<br>Contains the dates, start times, end times, and total hours for each workday.
