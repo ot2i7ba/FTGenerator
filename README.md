@@ -32,8 +32,8 @@ When you run the script, you'll be prompted to enter several parameters: the yea
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/fake-timesheet-generator.git
-cd fake-timesheet-generator
+git clone https://github.com/ot2i7ba/FTGenerator.git
+cd FTGenerator
 ```
 
 2. Install the required dependencies:
