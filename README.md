@@ -65,7 +65,7 @@ python timesheet.py
 ```
 
 ## Sample Prompts:
-```sh
+```
 Do you want to perform bulk processing? (yes/no) [no]:
 Enter the year [2024]:
 Enter the month (1-12) [7]:
@@ -112,5 +112,6 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is provided without warranties. Users are advised to review the accompanying license for more information on the terms of use and limitations of liability.
 
 # Conclusion
-Let's be honest: I'm too lazy to fill out timesheets regularly. In fact, I've been known to forget them for months, sometimes even years! Instead of manually creating Excel tables and saving them as PDFs, I built this handy little helper. It's tailored to my needs, which is why the generated files are in German. But don't worry, you can customize the script to suit your own preferences. So, if you're as forgetful (or lazy) as I am, this script might just save your day!
+Let's be honest: I'm way too lazy to fill out timesheets regularly. I mean, I've been known to forget them for months, sometimes even years! Instead of torturing myself with manually creating Excel tables and saving them as PDFs, I built this nifty little helper. It's customized to my needs, which is why the generated files are in German. 
 
+Now, full disclosure: I'm not a professional programmer. I'm just a lazy guy who hates paperwork. So, if you find any bugs or glitches, feel free to laugh, cry, or let me know. But seriously, if you're as forgetful (or lazy) as I am, this script might just save your day (and your sanity)!
