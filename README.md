@@ -97,7 +97,7 @@ The generated timesheets will be saved in a directory named `Stundenzettel {year
     - It is recommended to use an image with good dimensions for better clarity. For example, a signature image of 215x80 pixels works well.
     - The script will attempt to scale the image to fit within the cell, keeping the aspect ratio intact. However, it is best to use an image with appropriate dimensions to avoid excessive scaling and maintain legibility.
 
-# Screenshot
+# Screenshot [^1]
 <img src="https://github.com/ot2i7ba/FTGenerator/blob/main/assets/screenshot.png" width="32%" alt="Fake Timesheet Generator"> 
 
 ___
@@ -112,6 +112,10 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is provided without warranties. Users are advised to review the accompanying license for more information on the terms of use and limitations of liability.
 
 # Conclusion
-Let's be honest: I'm way too lazy to fill out timesheets regularly. I mean, I've been known to forget them for months, sometimes even years! Instead of torturing myself with manually creating Excel tables and saving them as PDFs, I built this nifty little helper. It's customized to my needs, which is why the generated files are in German. 
+Let's be honest: I'm way too lazy to fill out timesheets regularly. I mean, I've been known to forget them for months, sometimes even years! Instead of torturing myself with manually creating Excel tables and saving them as PDFs, I built this nifty little helper. It's customized to my needs, which is why the generated files are in German.
 
-Now, full disclosure: I'm not a professional programmer. I'm just a lazy guy who hates paperwork. So, if you find any bugs or glitches, feel free to laugh, cry, or let me know. But seriously, if you're as forgetful (or lazy) as I am, this script might just save your day (and your sanity)!
+Full disclosure: I'm not a professional programmer. I'm just a lazy, forgetful, and somewhat scatterbrained guy who hates paperwork. So, if you find any bugs or glitches, feel free to laugh, cry, or let me know. And don't be surprised if you see this README.md changing frequently—I keep having to fix and update it because, well, I'm me.
+
+But seriously, if you're as forgetful (or lazy) as I am, this script might just save your day (and your sanity)!
+
+[^1]: The signature on the screenshot was made with the font Photograph Signature by [Yadhie Setiawan](https://www.dafont.com/de/photograph-signature.font?text=Fake+Timesheet).
