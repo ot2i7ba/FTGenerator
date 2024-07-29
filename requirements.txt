@@ -1,0 +1,3 @@
+openpyxl==3.0.10
+holidays==0.14
+pypiwin32==223  # Needed for win32com.client
