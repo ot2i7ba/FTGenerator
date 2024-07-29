@@ -1,13 +1,26 @@
 # Fake Timesheet Generator
-This script, generates random fake work schedules and timesheets for a given month, including Excel and PDF exports, based on user-defined parameters.
+Ever found yourself forgetting to fill out timesheets for months on end? You're not alone! That's why I, a self-confessed lazy developer, created this nifty little script. The `timesheet.py` generates random fake work schedules and timesheets for a given month, including Excel and PDF exports, based on user-defined parameters.
+
+> [!WARNING]
+> This script produces entirely fake data based on the variables you set. Depending on how these documents are used, the recipient may consider them false, invalid, or even fraudulent. Use it wisely and with caution!
+
+For my purposes, this script is a lifesaver, helping me keep up with paperwork I otherwise can't be bothered to do. It’s tailored to suit my needs perfectly, and it is completely legitimate for my own use. If you're mature enough to understand the implications, feel free to adapt it for your own purposes. Just remember: with great laziness comes great responsibility!
+
+## How It Works
+When you run the script, you'll be prompted to enter several parameters: the year and month for which you want to generate the timesheet, the minimum and maximum number of workdays, the earliest start time and latest end time for work daily hours, and the minimum and maximum total hours for the month. Based on these inputs, the script randomly selects workdays within the specified range, ensuring they do not fall on holidays or weekends. It then generates random start and end times for each workday within the provided time window, ensuring that the total hours worked fall within the specified limits. The generated data is then compiled into detailed timesheets, which are saved in CSV and Excel formats, with an option to include a digital signature and export the document as a PDF.
 
 ## Features
-- **Random Work Schedule Generation**<br>Generates random work schedules for any given month, ensuring realistic and varied work times.
-- **CSV, Excel, and PDF Exports**<br>Creates detailed timesheets in CSV and Excel formats, with PDF export for easy sharing and printing.
-- **Customizable Parameters**<br>Allows users to define the number of workdays, start and end times, and total working hours.
-- **German Holidays Consideration**<br>Automatically considers German public holidays and special days (e.g., Christmas Eve) to avoid generating work hours on these days.
-- **Signature Support**<br>Includes an option to add a signature and an image of the signature in the generated Excel timesheets.
-- **Error Handling and Retry Mechanism**<br>Ensures valid timesheet generation with multiple retries in case of conflicts with the defined constraints.
+- **Random Work Schedule Generation**<br>Because who needs real schedules? Generates random work schedules for any given month, ensuring your fake work times look varied and oh-so realistic.
+- **CSV, Excel, and PDF Exports**<br>Creates detailed timesheets in CSV and Excel formats, with a fancy PDF export for easy sharing and pretending. Impress your friends and colleagues with beautifully organized fake data.
+- **Customizable Parameters**<br>Lets you play god with your work hours: define the number of workdays, start and end times, and total working hours. Flexibility is key when you're making stuff up!
+- **German Holidays Consideration**<br>Because even fake employees need their holidays! Automatically skips German public holidays and special days (like Christmas Eve and New Year's Eve) to keep your schedule "realistic."
+- **Signature Support**<br>Add a personal touch with your very own signature and a snazzy image of it in the Excel timesheets. The image is scaled to fit perfectly, maintaining your artistic integrity.
+- **Error Handling and Retry Mechanism**<br>No more infinite loops! Ensures valid timesheet generation with multiple retries in case your made-up hours don’t quite add up. It's like having a built-in sanity check for your fakery.
+- **User-Friendly Prompts**<br>Interactive prompts guide even the laziest user through the setup process. Customizing your fake timesheets has never been easier!
+- **Directory Management**<br>Automatically creates and organizes output files in neatly named directories, because even our laziness has standards.
+- **Existing File Check**<br>Prevents accidental overwriting of your precious fake data. Gives you the option to back up or overwrite existing files – because nobody wants to lose their masterpiece.
+- **Bulk Processing Option**<br>Got a whole year to fake? No problem! Supports bulk processing to generate timesheets for all months in one go. More fakery, less effort.
+- **Data Preview**<br>Preview your brilliantly concocted timesheet data in the terminal before committing to it. Verify and tweak your fake schedules to perfection.
 
 ## Requirements
 - Python 3.6 or higher
@@ -52,7 +65,7 @@ python timesheet.py
 ```
 
 ## Sample Prompts:
-```
+```sh
 Do you want to perform bulk processing? (yes/no) [no]:
 Enter the year [2024]:
 Enter the month (1-12) [7]:
@@ -83,6 +96,9 @@ The generated timesheets will be saved in a directory named `Stundenzettel {year
     - The image must be in PNG format.
     - It is recommended to use an image with good dimensions for better clarity. For example, a signature image of 215x80 pixels works well.
     - The script will attempt to scale the image to fit within the cell, keeping the aspect ratio intact. However, it is best to use an image with appropriate dimensions to avoid excessive scaling and maintain legibility.
+
+# Screenshot
+<img src="https://github.com/ot2i7ba/FTGenerator/blob/main/assets/images/screenshot.png" width="32%" alt="Fake Timesheet Generator"> 
 
 ___
 
