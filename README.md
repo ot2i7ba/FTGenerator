@@ -98,7 +98,7 @@ The generated timesheets will be saved in a directory named `Stundenzettel {year
     - The script will attempt to scale the image to fit within the cell, keeping the aspect ratio intact. However, it is best to use an image with appropriate dimensions to avoid excessive scaling and maintain legibility.
 
 # Screenshot
-<img src="https://github.com/ot2i7ba/FTGenerator/blob/main/assets/images/screenshot.png" width="32%" alt="Fake Timesheet Generator"> 
+<img src="https://github.com/ot2i7ba/FTGenerator/blob/main/assets/screenshot.png" width="32%" alt="Fake Timesheet Generator"> 
 
 ___
 
